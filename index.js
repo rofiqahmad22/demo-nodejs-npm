@@ -1,9 +1,9 @@
-console.log("sqrt and pow result:");
+console.log("sqrt and pow result using mathjs package");
 
 // sqrt
 const { sqrt } = require("mathjs");
-console.log(sqrt(9).toString());
+console.log(`sqrt result: ${sqrt(9).toString()}`);
 
 // pow
 const { pow } = require("mathjs");
-console.log(pow(2, 2).toString());
+console.log(`pow result: ${pow(2, 2).toString()}`);
